@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.logo { width: 0px;
+    float: left; 
+    margin-top: 25px;
+    display: inline-flex;
+}
+.logo .img { 
+padding-left: 100%;
+}
+
+.logo .tajam{
+    margin-top: -70%;
+    padding-left: 90%;
+    font-size: 25px;
+    color: aqua;
+    font-family: 'Roboto' ;
+    font-family: serif;    
+}
+
+.bar {
+    
+    padding-left: 20%;
+    display: flex;
+}
+
+.menu {
+    width: 1050px;
+    float: inline-end;
+   
+}
+ul {
+    display: flex;
+    padding-left: 300px;
+    justify-content: flex-end;
+}
+ul li{ list-style: none;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 15px; 
+ 
+}
+ul li a{
+text-decoration: none;
+color: rgb(244, 248, 245);
+font-weight: normal;
+transition: 0.4s ease-in-out;
+
+}
+ul li a :hover{
+    color: aqua;
+}
+ul li  :hover{
+    color: aqua;
+}
+
+
+
+    
+
+/*text on the page*/
+
+.ladenpage{
+    align-items: center;
+    padding-left: 500px;
+    display: contents;
+    
+
+}
+
+.ladenpage-we {
+  margin-top: -220px;
+width: 2500px;
+  padding-left: 700px;
+
+   
+   
+}
+
+.ladenpage-we h1{
+    width: 2500px;
+    color: aliceblue;
+    padding-top: 400px;
+   
+}
+
+.ladenpage-p{
+    width: 1240px;
+   padding-left: 500px;
+   text-align: center;
+   margin-top: 20px;
+   color: aliceblue;
+  
+
+}
