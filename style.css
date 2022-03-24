@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -9,24 +10,27 @@
     float: left; 
     margin-top: 25px;
     display: inline-flex;
+   
 }
 .logo .img { 
 padding-left: 100%;
+
 }
 
 .logo .tajam{
-    margin-top: -70%;
-    padding-left: 90%;
+    margin-top: -45%;
+    padding-left: 80%;
     font-size: 25px;
     color: aqua;
-    font-family: 'Roboto' ;
-    font-family: serif;    
+    font-family: 'Roboto Mono', monospace; 
+      
 }
 
 .bar {
     
     padding-left: 20%;
     display: flex;
+    justify-items: baseline;
 }
 
 .menu {
@@ -60,41 +64,33 @@ ul li  :hover{
 }
 
 
-
-    
-
 /*text on the page*/
 
 .ladenpage{
-    align-items: center;
-    padding-left: 500px;
-    display: contents;
+    font-size: 10px;
+    text-align: center;
     
-
 }
 
 .ladenpage-we {
-  margin-top: -220px;
-width: 2500px;
-  padding-left: 700px;
-
-   
-   
+    margin-top: -220px;
+    padding-left: 700px; 
+    font-size: 13px;  
 }
 
 .ladenpage-we h1{
-    width: 2500px;
+    width: 500px;
     color: aliceblue;
-    padding-top: 400px;
-   
+    padding-top: 400px;  
 }
 
 .ladenpage-p{
-    width: 1240px;
-   padding-left: 500px;
-   text-align: center;
-   margin-top: 20px;
+    width: 1300px;
+   padding-left: 590px;
+   margin-top: 50px;
    color: aliceblue;
+   line-height: 20px;
+  
   
 
 }
